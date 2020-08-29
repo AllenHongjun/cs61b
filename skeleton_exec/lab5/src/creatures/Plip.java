@@ -22,6 +22,14 @@ public class Plip extends Creature{
     * 底层的方法在哪里
     * 如何调用数据 mybetis 的使用。。
     * 软件的生命周期。。运行管道的过程。。
+    *
+    *
+    *
+    * 没有邮箱
+    * 没有判分系统
+    * 没有piazz论坛
+    *
+    *
     * */
     /**
      * red color
