@@ -60,7 +60,7 @@ public class Body {
         double r = Math.hypot(dx, dy);
         return r;
     }
-
+//javac -encoding utf-8 xx.java
     /** 
      * Calculate the force exerted on this body by the given body 
      */

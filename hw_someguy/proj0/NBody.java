@@ -1,5 +1,25 @@
 /**
  * NBody
+ *
+ *
+ * https://zh.wikipedia.org/wiki/%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B   牛顿万有引力定律
+ *
+ * 这个项目 直接使用javac  java 来编译运行
+ * javac -unicode utf-8 NBody.java TestCalForceExerted.java
+ * 需要几个文件 就编译几个文件
+ *
+ * 有些单词不理解的多查查字段
+ *
+ * project0 的目的主要还是熟悉 java
+ *
+ * 课程 主要还是推荐多使用 命令行的工具。。少用图形界面。。
+ *
+ * 上课 ppt guide -> dis-> lab -hw -> project -> exam
+ * 一周一周的任务完成。。严格的按照步骤
+ * 尽量独立自主的完成。。。
+ * 这样的容易立即一些。。
+ * 学习的方法。。。
+ *
  */
 public class NBody {
 
