@@ -6,6 +6,8 @@ public class LeapYear {
      *  @param  year to be analyzed
      */
     public static boolean isLeapYear(int year) {
+        // 判断方法如果既能被400整除 又能被4整除并且不能被100整除就是闰年
+        // Ubuntu 下就是中文也是能够直接编译 windows 下还会报错
         if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
             return true;
         } else {
@@ -14,6 +16,7 @@ public class LeapYear {
     }
     
     /** Calls isLeapYear to print correct statement.
+     * 打印判断一个年份是否是闰年
      *  @param  year to be analyzed
      */
     private static void checkLeapYear(int year) {
@@ -25,6 +28,7 @@ public class LeapYear {
     }
 
     /** Must be provided an integer as a command line argument ARGS. */
+    // 主函数循环 判断一个年份是否是闰年
     public static void main(String[] args) {
         if (args.length < 1) {
             System.out.println("Please enter command line arguments.");
