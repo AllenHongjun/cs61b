@@ -21,9 +21,9 @@ public class TTFAF {
             e.printStackTrace();
         }
 
-        // You can also do this:
-        // GuitarPlayer player = new GuitarPlayer(new java.io.File("path/to/music.mid"));
-        // player.play();
+         //You can also do this: as an example of how to use it another way
+         /*GuitarPlayer player = new GuitarPlayer(new java.io.File("../../library-sp19-master/data/music.mid"));
+         player.play();*/
     }
 
     private static final String TTFAF =
